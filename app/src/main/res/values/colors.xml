@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68b656</color>
+    <color name="colorPrimaryDark">#2d2e2e</color>
+    <color name="colorAccent">#068899</color>
+    <color name="backgroundColor">#02323b</color>
+    <color name="textColor">#848484</color>
+    <color name="White">#e7e5e5</color>
+    <color name="primary_dark_material_dark">#68b756</color>
+    <color name="foreground_material_light">#97f27c</color>
+    <color name="primary_material_dark">#4caf50</color>
+    <color name="legacy_primary">#4caf50</color>
+    <color name="legacy_primary_dark">#9b9595</color>
+    <color name="colorAlert">#F8333C</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_grey">#ffeeeeee</color>
+
+</resources>

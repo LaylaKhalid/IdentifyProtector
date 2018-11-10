@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+        android:background="#4cae50"
+        android:padding="8dp"
+        android:gravity="left"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_icon"
+            android:gravity="left"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register and Setting"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name "
+        android:paddingLeft="10dp"
+        android:layout_marginTop="22dp"/>
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter user name with 4 or more character"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="130dp"/>
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="22dp"/>
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter passwoed with 8 or more character"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="130dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/complete"
+        android:padding="10dp"
+        android:layout_marginTop="22dp"/>
+    <CheckBox
+        android:id="@+id/mybox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receive_notification"
+        android:padding="10dp"
+        android:gravity="left"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:checked="true"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="left"
+       android:background="@drawable/frame"
+       android:padding="10dp"
+       android:layout_margin="10dp">
+
+       <View
+           android:layout_width="match_parent"
+           android:gravity="left"
+           android:layout_height="1dp">
+
+       </View>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="left"
+           android:text="@string/monitoring_duration"
+           />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/daily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daily"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/weekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weekly"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <RadioButton
+            android:id="@+id/monthly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthly"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp" />
+
+
+    </RadioGroup>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+       android:layout_gravity="bottom"
+        android:gravity="bottom">
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:background="@drawable/button_next"
+        android:textColor="@color/White"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="22dp" />
+        //android:onClick="OnSetting"
+
+</LinearLayout>
+</LinearLayout>

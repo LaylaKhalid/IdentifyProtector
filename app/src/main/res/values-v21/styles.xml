@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeActionBar" parent="android:Theme.WithActionBar">
+
+
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorPrimary">@color/legacy_primary</item>
+        <item name="android:colorPrimaryDark">@color/legacy_primary_dark</item>
+        <item name="android:colorBackground">@color/legacy_primary</item>
+        <item name="android:navigationBarColor">@color/backgroundColor</item>
+        <item name="android:textColorPrimary">@color/backgroundColor</item>
+    </style>
+</resources>

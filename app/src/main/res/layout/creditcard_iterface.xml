@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+        android:background="#4cae50"
+        android:padding="8dp"
+        android:id="@+id/toolbar"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_icon"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Cards"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/out"
+            android:textAllCaps="false"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="140dp"
+            android:background="@drawable/logout1"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Required"
+    android:layout_marginBottom="8dp"
+    android:padding="5dp"
+    android:layout_margin="8dp"
+    android:textColor="#d2163f"
+    android:textSize="15sp"
+    android:textStyle="bold"/>
+<EditText
+    android:id="@+id/profilecard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Profile Name"
+    android:padding="7dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/edittextframe"
+    android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+    android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp" />
+    <EditText
+        android:id="@+id/CreditNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Credit Card Number"
+        android:padding="7dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp" />
+
+    <EditText
+        android:id="@+id/SecureCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:hint="Secure Code"
+        android:padding="7dp" />
+
+    <EditText
+        android:id="@+id/CardOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:hint="Card Owner"
+        android:padding="7dp" />
+
+    <EditText
+        android:id="@+id/ExpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:hint="Expiration Date"
+        android:padding="7dp" />
+
+    <EditText
+        android:id="@+id/PhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:hint="phone Number"
+        android:padding="7dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Address"
+    android:padding="15dp"
+    />
+
+    <EditText
+        android:id="@+id/Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:hint="Country"
+        android:padding="7dp" />
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:padding="7dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp" />
+    <EditText
+        android:id="@+id/Street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street"
+        android:padding="7dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp" />
+    <EditText
+        android:id="@+id/ZipCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zip Code"
+        android:padding="7dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/edittextframe"
+        android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"
+        android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp" />
+<CheckBox
+    android:id="@+id/allowcard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Allow monitoring the profile"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:textSize="15sp"
+    android:checked="true"
+    android:textStyle="bold"/>
+</LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/addcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ic_save_black_24dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/legacy_primary"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/White"/>
+
+<ImageView
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:src="@drawable/logo_icon"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/VerifyText"
+        android:textColor="@color/textColor"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcomeMessage"
+            android:textColor="@color/White"
+            android:layout_gravity="bottom|center"
+            android:gravity="bottom"
+            android:textSize="18sp"
+            android:layout_marginTop="2dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Register"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/button_register"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="80dp"
+            android:textColor="@color/White"
+            android:visibility="visible"
+            />
+        <Button
+            android:id="@+id/firstlogin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/button_register"
+            android:layout_marginLeft="220dp"
+            android:layout_marginBottom="80dp"
+            android:textColor="@color/White"
+            android:visibility="visible"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="KSU-IT@2018"
+        android:layout_gravity="center"
+        android:textColor="@color/legacy_primary"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@color/White"/>
+
+</LinearLayout>

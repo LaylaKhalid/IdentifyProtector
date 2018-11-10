@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/update_settings"
+        android:orderInCategory="100"
+        android:title="@string/update_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/scanQR"
+        android:orderInCategory="100"
+        android:title="@string/scan_qr"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/LogOut"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+</menu>
